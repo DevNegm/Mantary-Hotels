@@ -113,7 +113,7 @@ const Rooms = () => {
                         onChange={setSortBy}
                     />
 
-                    {/* ✅ Price Range Filter */}
+                 
                     <div className="flex flex-col gap-2">
                         <p className="text-sm font-bold">Price Range</p>
                         <RangeSlider

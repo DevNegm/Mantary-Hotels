@@ -94,7 +94,7 @@ const RoomDetails = () => {
         )}
       </div>
       <div className='flex flex-wrap items-center gap-4'>
-        <p className='text-zinc-500'>{item.available ? 'Available' : 'Not Available'}</p>
+        <p className={item.available ? 'text-green-600' : 'text-red-400'}>{item.available ? 'Available' : 'Not Available'}</p>
         {item.bookedDates.map((d, idx) => (
           <p key={idx} className='text-sm px-4 py-2 rounded-full border border-zinc-500'>From <span className='font-bold'>{formatDate(d.checkIn)}</span>  To <span className='font-bold'>{formatDate(d.checkOut)}</span></p>
         ))}
