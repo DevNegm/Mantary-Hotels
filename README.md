@@ -92,3 +92,37 @@ React Hot Toast	Notifications
 ✅ Scroll-to-top on page change.
 ✅ Custom reusable form inputs with password toggle.
 ✅ Gradient navbar and styled scrollbars.
+
+🖥️ Setup Instructions
+
+Clone the repo:
+git clone https://github.com/DevNegm/Mantary-Hotels.git
+
+Install dependencies:
+npm install
+
+Run the app:
+npm run dev
+
+Open http://localhost:5173
+
+### 🎥 Demo
+
+A short video demonstration is included showing:
+Viewing available rooms.
+Logging in.
+Booking and canceling reservations.
+
+[Watch the demo video](https://youtu.be/AjvPLbLeeiA)
+
+🧾 Notes
+
+This project simulates a simplified hotel reservation system.
+All data (rooms, users, and bookings) is stored locally using Redux + localStorage.
+No backend or API calls are made.
+
+👨‍💻 Author
+
+Ahmed Negm
+Frontend Developer — React.js / Next.js
+📧 [ahmdn4418@gmail.com] - [https://www.justnegm.com/]
